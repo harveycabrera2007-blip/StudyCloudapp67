@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Pink Theme Palette -->
+    <color name="pink_bg">#FFF0F5</color>          <!-- Lavender Blush / Soft Pink Background -->
+    <color name="pink_primary">#E84393</color>     <!-- Deep Rose Pink -->
+    <color name="pink_accent">#FD79A8</color>      <!-- Pastel Pink -->
+    <color name="pink_card">#FFFFFF</color>        <!-- Clean White Card -->
+    <color name="pink_chip_bg">#FFD1DC</color>     <!-- Soft Pink Pill -->
+    <color name="pink_dark_text">#2D3436</color>
+</resources>

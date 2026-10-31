@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:paddingBottom="90dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Back"
+        android:textSize="16sp"
+        android:textColor="#0984E3"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post New Assignment"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etAssignTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Assignment Title (e.g., OOP Quiz 1)"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etAssignDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Due Date (e.g., Nov 10, 2026)"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etAssignDesc"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Instructions &amp; Requirements..."
+        android:gravity="top|start"
+        android:background="@android:drawable/edit_text"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnPublishAssignment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish Assignment" />
+
+</LinearLayout>
